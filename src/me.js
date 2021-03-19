@@ -1,4 +1,9 @@
-import { dataBase, salir, activeUser, verAutenticacion } from './configFirebase.js';
+import {
+  dataBase,
+  salir,
+  activeUser,
+  verAutenticacion,
+} from './configFirebase.js';
 import { onNavigate } from './routes.js';
 
 export const me = `
@@ -229,14 +234,15 @@ document.addEventListener('click', (e) => {
     e.preventDefault();
     onNavigate('/me');
   }
-  if (e.target.matches('.logOut')) {
-    salir();
-    e.preventDefault();
-  }
   if (e.target.matches('.burger')) {
     console.log('Burger');
     showMenu();
     e.preventDefault();
+  }
+  if (e.target.matches('.logOut')) {
+    salir();
+    e.preventDefault();
+    console('botón salir');
   }
   if (e.target.matches('#icon-likes')) {
     console.log('Me gusta');

@@ -1,5 +1,8 @@
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// eslint-disable-next-line import/no-cycle
+//import { onNavigate } from './routes.js';
+
 const firebaseConfig = {
   apiKey: 'AIzaSyABP0g3UCSzN9JeeJ0Rx70z0E5hBoaCB2w',
   authDomain: 'coffee-house-lab.firebaseapp.com',

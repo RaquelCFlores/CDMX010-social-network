@@ -12,7 +12,7 @@ export const home = `
             <ul><li>Cafeterias cerca</li></ul>
             <ul><li>Ayuda y soporte técnico</li></ul>
             <ul><li>Configuracion</li></ul>
-            <ul><li><a class='logOut'>Cerrar sesión</a></li></ul>
+            <ul><li><a>Cerrar sesión</a></li></ul>
         </nav>
         <img class='logo-home' src='../assets/coffehouseletras-01.png' alt='Logo Coffee House'>
         <div class='div-search-head'>
